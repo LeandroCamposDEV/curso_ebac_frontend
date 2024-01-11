@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    background-color: rgb(163, 165, 165);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista-tarefas{
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+
+.lista-tarefas h1{
+    font-size: 40px;
+    margin-top: 50%;
+    margin-bottom: 10px;
+}
+
+#inputTarefa {
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+#btnCadastrar {
+    width: 100px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#tarefas li.completed {
+    text-decoration: line-through;
+    cursor: crosshair;
+    margin-top: 13px;
+}
